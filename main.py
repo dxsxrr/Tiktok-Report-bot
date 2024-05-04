@@ -6,7 +6,7 @@ import json
 tiktokvideolink = input('Video ID > ')
 tiktokvideolinkreal = input('Tiktok Video Link')
 
-url = "https://www.tiktok.com/node/report/reasons_put?aid=1988&app_name=tiktok_web&device_platform=web_pc&device_id=6987530745909036549&region=DK&priority_region=&os=windows&referer=&root_referer=&cookie_enabled=true&screen_width=1920&screen_height=1080&browser_language=da-DK&browser_platform=Win32&browser_name=Mozilla&browser_version=5.0+(Windows+NT+10.0%3B+Win64%3B+x64)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F92.0.4515.107+Safari%2F537.36&browser_online=true&verifyFp=verify_krfa96cw_p2Eae0I8_dJaE_4XwS_AEGm_KOmG1m49cOwX&app_language=en&timezone_name=Europe%2FCopenhagen&is_page_visible=true&focus_state=true&is_fullscreen=false&history_len=4&battery_info=1"
+url = "https://www.tiktok.com/@deadstonegames/video/7354782624381996319?_r=1&_t=8m57g17IKP3"
 
 payload = json.dumps({
   "reason": 1004,
